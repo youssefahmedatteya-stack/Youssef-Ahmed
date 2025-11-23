@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Youssef Ahmed</title>
+</head>
+<body>
+    <!-- start header -->
+    <header class="sticky top-0">
+        <div class="container w-full flex justify-between items-center main-container" id="header-container">
+            <div class="logo flex gap-2 items-center">
+            <i class="fa-solid fa-bolt text-2xl" style="color: #4984eb;"></i>
+            <a href="index.html"><h1 class="text-white text-2xl font-bold">Youssef Ahmed</h1></a>
+            </div>
+            <div class="links"> 
+                <nav class="nav-menu" id="nav">
+                    <span id="close-menu" onclick="op_cl_Menu()"><i class="fa-solid fa-xmark" style="color: #4984eb;"></i></span>
+                    <ul class="flex gap-8 text-white text-xl">
+                        <li><a href="index.html" class="nav-link active hover:text-sky-700 transition duration-150 ease-in-out">Home</a></li>
+                        <li><a href="#About-saction" class="nav-link hover:text-sky-700 transition duration-150 ease-in-out">About</a></li>
+                        <li><a href="#Services-section" class="nav-link hover:text-sky-700 transition duration-150 ease-in-out">Services</a></li>
+                        <li><a href="#projects-section" class="nav-link hover:text-sky-700 transition duration-150 ease-in-out">Projects</a></li>
+                        <li><a href="#contact-section" class="nav-link hover:text-sky-700 transition duration-150 ease-in-out">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-icons flex gap-6 text-2xl">
+                <a href="https://github.com/yoyo431" target="_blank"><i class="fa-brands fa-github hover:scale-125 transition duration-300 ease-in-out" style="color: #4984eb;"></i></a>
+                <a href="https://www.linkedin.com/in/yousef-ahmed-370352344/" target="_blank"><i class="fa-brands fa-linkedin hover:scale-125 transition duration-300 ease-in-out" style="color: #4984eb;"></i></a>
+                <a href="https://www.tiktok.com/@yousefahmedatteya?_r=1&_t=ZS-91bDTz0DbeP" target="_blank"><i class="fa-brands fa-tiktok hover:scale-125 transition duration-300 ease-in-out" style="color: #4984eb;"></i></a>
+                <span onclick="op_cl_Menu()" id="open_menu" class="menu-btn"><i class="fa-solid fa-bars" style="color: #4984eb;"></i></span>
+            </div>
+        </div>
+    </header>
+    <!-- //End header// -->
+    <!-- start landing page -->
+    <section class="landing-page flex items-center justify-center">
+        <div class="container w-full flex justify-between items-center main-container">
+            <div id="landing-page-content" class="text-white w-1/2">
+                <h1 class="text-6xl font-bold text-[#4984eb] mb-8">Youssef Ahmed.</h1>
+                <h3 class="text-5xl">FrontEnd Developer</h3>
+                <p class="text-[#868686] w-3/4">I’m Yousef, a Front-End & WordPress Developer. I build responsive websites that work on all devices and screens. I care about user experience, site performance, and smooth browsing. My work focuses on simplicity and speed with a modern design that shows the client’s identity in the best way.</p>
+                <div class="landing-page-btn flex gap-8 items-center">
+                    <a href="https://wa.me/+201099649494" target="_blank" class="bg-[#4984eb] text-xl rounded-lg text-black font-semibold" id="hire-me-btn">Hire Me</a>
+                    <a href="Youssef_Ahmed Atteya_WordPress implementer_resume (1).pdf" target="_blank" class="cv underline text-lg hover:text-[#4984eb] transition duration-300 ease-in-out">Download Resume</a>
+                </div>
+            </div>
+            <div id="landing-page-img">
+                <img class="person" src="ChatGPT_Image_Oct_4__2025__06_19_48_PM-removebg-preview.png">
+                <img class="bg-img" src="nano-banana-2025-10-03T12-59-17-removebg-preview.png">
+                
+            </div>
+        </div>
+    </section>
+    <!-- //End landing page// -->
+    <!-- start About -->
+    <section id="About-saction" class="About-saction">
+        <div class="container w-full flex justify-between items-center main-container bg-[#070707] gap-12">
+            <div id="about-me-content">
+                <p class="title text-[#868686] font-semibold text-xl">About Me</p>
+                <h1 class="font-bold text-[#4984eb] text-4xl">I'm a FrontEnd Developer</h1>
+                <h3 class="text-white text-xl">I Develop Application that Help People</h3>
+                <p id="about" class="text-[#868686] w-3/4">I’m Yousef, a Front-End & WordPress Developer. I build responsive websites that work on all devices and screens. I care about user experience, site performance, and smooth browsing. My work focuses on simplicity and speed with a modern design that shows the client’s identity in the best way.</p>
+            <div class="skills-title w-full text-center ">
+                <h4 class="text-white text-3xl">My <span class="text-[#4984eb]">Skills</span></h4>
+            </div>
+                <div class="skills flex justify-between w-3/4">
+                    <div>
+                        <div class="skill">
+                            <div>
+                                <img src="html-5.png">
+                            </div>
+                            <div>
+                                <span class="text-white">HTML</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div>
+                                <img src="css-3.png">
+                            </div>
+                            <div>
+                                <span class="text-white">CSS</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div>
+                                <img src="tailwindcss-mark.d52e9897.png">
+                            </div>
+                            <div>
+                                <span class="text-white">TailWind</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="skill">
+                            <div>
+                                <img src="js.png">
+                            </div>
+                            <div>
+                                <span class="text-white">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div>
+                                <img src="wordpress.png">
+                            </div>
+                            <div>
+                                <span class="text-white">WordPress</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div>
+                                <img src="bootstrap-logo-shadow.png">
+                            </div>
+                            <div>
+                                <span class="text-white">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="Youssef_Ahmed Atteya_WordPress implementer_resume (1).pdf" target="_blank" class="bg-[#4984eb] text-xl rounded-lg text-black font-semibold" id="download-cv-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- //End About// -->
+    <!-- start Services -->
+    <section id="Services-section" class="Services-section flex flex-col">
+        <div class="container w-full flex flex-col justify-between items-center main-container">
+            <div class="Services-title w-full text-center ">
+                <h1 class="text-white text-5xl">My <span class="text-[#4984eb]">Services</span></h1>
+            </div>
+            <div class="all-services flex gap-6">
+                <div class="service">
+                    <img src="wordpress service.png">
+                    <h2 class="text-white">WordPress Websites</h2>
+                    <p class="text-[#8a8a8a]">I build professional, responsive, and fast WordPress websites tailored to your goals — whether it's a personal site, business website, or online store.</p>
+                </div>
+                <div class="service">
+                    <img src="web-design.png">
+                    <h2 class="text-white">Front-End Development</h2>
+                    <p class="text-[#8a8a8a]">I convert your design (Figma, XD, or PSD) into a fully responsive and clean website using HTML, CSS, JavaScript, and Tailwind CSS — pixel-perfect and performance-optimized.</p>
+                </div>
+                <div class="service">
+                    <img src="content.png">
+                    <h2 class="text-white">Landing Pages</h2>
+                    <p class="text-[#8a8a8a]">I build professional, responsive, and fast WordPress websites tailored to your goals — whether it's a personal site, business website, or online store.</p>
+                </div>
+                <div class="service">
+                    <img src="digital-services.png">
+                    <h2 class="text-white">Website Maintenance & Support</h2>
+                    <p class="text-[#8a8a8a]">I provide regular updates, backups, and technical support to keep your website secure and running smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //End Services// -->
+    <!-- start projects -->
+    <section id="projects-section" class="projects-section">
+        <div class="container w-full flex flex-col justify-between items-center main-container">
+            <div class="projects-title w-full text-center ">
+                <h1 class="text-white text-5xl">My <span class="text-[#4984eb]">Projects</span></h1>
+            </div>
+            <div class="all-projects">
+                <div class="project">
+                    <div class="project-image">
+                        <img src="Ecommerce mockup.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="text-[#4984eb] text-2xl">Ecommerce Website</h3>
+                        <h1 class=""><a href="https://drive.google.com/drive/folders/1aExtpQJXCHXNCvBufhK4oPAva4M-7eoS?usp=drive_link" target="_blank">Topico Ecommerce</a></h1>
+                        <p class="text-[#8a8a8a]">Topico — A modern eCommerce website that sells electronic products
+                        such as smartphones, cameras, and accessories. It features a clean design, smooth user experience, and a fully responsive layout.</p>
+                        <span><a href="https://drive.google.com/drive/folders/1aExtpQJXCHXNCvBufhK4oPAva4M-7eoS?usp=drive_link" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-content">
+                        <h3 class="text-[#4984eb] text-2xl">Business Website</h3>
+                        <h1 class=""><a href="https://drive.google.com/drive/folders/1gFFSc8nx6-G-pnAVC2g9njRaSem6cajk?usp=drive_link" target="_blank">Ception Construction & Mining</a></h1>
+                        <p class="text-[#8a8a8a]">Ception Core — A smart mapping and localization system powered by computer vision and deep learning for advanced industrial and automotive solutions.</p>
+                        <span><a href="https://drive.google.com/drive/folders/1gFFSc8nx6-G-pnAVC2g9njRaSem6cajk?usp=drive_link" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
+                    </div>
+                    <div class="project-image">
+                        <img src="Device Mockup.jpg">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="drosy.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="text-[#4984eb] text-2xl">E learning Website</h3>
+                        <h1 class=""><a href="https://drive.google.com/drive/folders/15RZp0mgamKzV-w7WEiAUdhYTIKaWnMpW?usp=drive_link" target="_blank">Dorosy E learning</a></h1>
+                        <p class="text-[#8a8a8a]">Dorosy — An online learning platform designed for teachers and schools to deliver remote education. It provides a clean and user-friendly interface for accessing recorded lessons, managing classes, and supporting students in a fully digital learning environment.</p>
+                        <span><a href="https://drive.google.com/drive/folders/15RZp0mgamKzV-w7WEiAUdhYTIKaWnMpW?usp=drive_link" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //End projects// -->
+    <!-- start footer -->
+    <section id="contact-section" class="footer-section">
+        <div class="container w-full flex flex-col justify-between  main-container">
+            <div class="contact-me w-full text-center">
+                <h1 class="text-white text-5xl">Contact <span class="text-[#4984eb]">Me</span></h1>
+            </div>
+            <div class="footer">
+                <div class="social-section">
+                <div class="social-icons-title"><h1 class="text-white text-2xl">Follow <span class="text-[#4984eb]">Me</span></h1></div>
+                <div class="social-icons">
+                    
+                    <div class="contact-way">
+                        <span class="icon"><i class="fa-brands fa-github"></i></span>
+                        <a href="https://github.com/yoyo431" target="_blank">github</a>
+                    </div>
+                    <div class="contact-way">
+                        <span class="icon"><i class="fa-brands fa-linkedin-in"></i></span>
+                        <a href="https://www.linkedin.com/in/yousef-ahmed-370352344/" target="_blank">linkedin</a>
+                    </div>
+                    <div class="contact-way">
+                        <span class="icon"><i class="fa-brands fa-whatsapp"></i></span>
+                        <a id="whatsapp_btn" href="https://wa.me/+201099649494" target="_blank">whatsapp</a>
+                    </div>
+                    <div class="contact-way">
+                        <span class="icon"><i class="fa-brands fa-tiktok"></i></span>
+                        <a href="https://www.tiktok.com/@yousefahmedatteya?_r=1&_t=ZS-91bDTz0DbeP" target="_blank">tiktok</a>
+                    </div>
+                </div>
+                </div>
+                <div class="contact-form">
+<form id="whatsappForm">
+    <div class="inputs-form">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <textarea id="message" placeholder="Enter your project details" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn bg-[#4984eb] hover:bg-sky-500 transition px-10 py-4 rounded-lg text-black font-bold text-xl">
+        <i class="fab fa-whatsapp mr-2"></i> Send on WhatsApp
+    </button>
+</form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--// End footer //-->
+</body>
+<script src="main.js"></script>
+</html>
