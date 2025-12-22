@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -13,7 +18,7 @@
 </head>
 <body>
     <!-- start header -->
-    <header class="sticky top-0">
+    <header class="sticky top-0 animate__animated animate__bounceInDown">
         <div class="container w-full flex justify-between items-center main-container" id="header-container">
             <div class="logo flex gap-2 items-center">
             <i class="fa-solid fa-bolt text-2xl" style="color: #4984eb;"></i>
@@ -32,7 +37,7 @@
                 </nav>
             </div>
             <div class="nav-icons flex gap-6 text-2xl">
-                <a href="https://github.com/youssefahmedatteya-stack" target="_blank"><i class="fa-brands fa-github hover:scale-125 transition duration-300 ease-in-out" style="color: #4984eb;"></i></a>
+                <a href="https://github.com/yoyo431" target="_blank"><i class="fa-brands fa-github hover:scale-125 transition duration-300 ease-in-out" style="color: #4984eb;"></i></a>
                 <a href="https://www.linkedin.com/in/yousef-ahmed-370352344/" target="_blank"><i class="fa-brands fa-linkedin hover:scale-125 transition duration-300 ease-in-out" style="color: #4984eb;"></i></a>
                 <a href="https://www.tiktok.com/@yousefahmedatteya?_r=1&_t=ZS-91bDTz0DbeP" target="_blank"><i class="fa-brands fa-tiktok hover:scale-125 transition duration-300 ease-in-out" style="color: #4984eb;"></i></a>
                 <span onclick="op_cl_Menu()" id="open_menu" class="menu-btn"><i class="fa-solid fa-bars" style="color: #4984eb;"></i></span>
@@ -43,7 +48,7 @@
     <!-- start landing page -->
     <section class="landing-page flex items-center justify-center">
         <div class="container w-full flex justify-between items-center main-container">
-            <div id="landing-page-content" class="text-white w-1/2">
+            <div id="landing-page-content" class="text-white w-1/2 animate__animated animate__backInLeft">
                 <h1 class="text-6xl font-bold text-[#4984eb] mb-8">Youssef Ahmed.</h1>
                 <h3 class="text-5xl">FrontEnd Developer</h3>
                 <p class="text-[#868686] w-3/4">I’m Yousef, a Front-End & WordPress Developer. I build responsive websites that work on all devices and screens. I care about user experience, site performance, and smooth browsing. My work focuses on simplicity and speed with a modern design that shows the client’s identity in the best way.</p>
@@ -52,16 +57,16 @@
                     <a href="Youssef_Ahmed Atteya_WordPress implementer_resume (1).pdf" target="_blank" class="cv underline text-lg hover:text-[#4984eb] transition duration-300 ease-in-out">Download Resume</a>
                 </div>
             </div>
-            <div id="landing-page-img">
-                <img class="person" src="ChatGPT_Image_Oct_4__2025__06_19_48_PM-removebg-preview.png">
-                <img class="bg-img" src="nano-banana-2025-10-03T12-59-17-removebg-preview.png">
+            <div id="landing-page-img" class="animate__animated animate__backInRight ">
+                <img class="person floating" src="ChatGPT_Image_Oct_4__2025__06_19_48_PM-removebg-preview.png">
+                <img class="bg-img floating" src="nano-banana-2025-10-03T12-59-17-removebg-preview.png">
                 
             </div>
         </div>
     </section>
     <!-- //End landing page// -->
     <!-- start About -->
-    <section id="About-saction" class="About-saction">
+    <section id="About-saction" class="About-saction" data-aos="fade-down">
         <div class="container w-full flex justify-between items-center main-container bg-[#070707] gap-12">
             <div id="about-me-content">
                 <p class="title text-[#868686] font-semibold text-xl">About Me</p>
@@ -131,7 +136,7 @@
     </section>
     <!-- //End About// -->
     <!-- start Services -->
-    <section id="Services-section" class="Services-section flex flex-col">
+    <section id="Services-section" class="Services-section flex flex-col" data-aos="fade-down">
         <div class="container w-full flex flex-col justify-between items-center main-container">
             <div class="Services-title w-full text-center ">
                 <h1 class="text-white text-5xl">My <span class="text-[#4984eb]">Services</span></h1>
@@ -169,37 +174,48 @@
             </div>
             <div class="all-projects">
                 <div class="project">
-                    <div class="project-image">
+                    <div class="project-image" data-aos="fade-right">
                         <img src="Ecommerce mockup.jpg">
                     </div>
-                    <div class="project-content">
+                    <div class="project-content" data-aos="fade-left">
                         <h3 class="text-[#4984eb] text-2xl">Ecommerce Website</h3>
-                        <h1 class=""><a href="https://drive.google.com/drive/folders/1aExtpQJXCHXNCvBufhK4oPAva4M-7eoS?usp=drive_link" target="_blank">Topico Ecommerce</a></h1>
+                        <h1 class=""><a href="https://www.behance.net/gallery/240918339/Topico-Ecommerce" target="_blank">Topico Ecommerce</a></h1>
                         <p class="text-[#8a8a8a]">Topico — A modern eCommerce website that sells electronic products
                         such as smartphones, cameras, and accessories. It features a clean design, smooth user experience, and a fully responsive layout.</p>
-                        <span><a href="https://drive.google.com/drive/folders/1aExtpQJXCHXNCvBufhK4oPAva4M-7eoS?usp=drive_link" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
+                        <span><a href="https://www.behance.net/gallery/240918339/Topico-Ecommerce" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
                     </div>
                 </div>
                 <div class="project">
-                    <div class="project-content">
+                    <div class="project-content" data-aos="fade-right">
                         <h3 class="text-[#4984eb] text-2xl">Business Website</h3>
-                        <h1 class=""><a href="https://drive.google.com/drive/folders/1gFFSc8nx6-G-pnAVC2g9njRaSem6cajk?usp=drive_link" target="_blank">Ception Construction & Mining</a></h1>
+                        <h1 class=""><a href="https://www.behance.net/gallery/240918931/Ception" target="_blank">Ception Construction & Mining</a></h1>
                         <p class="text-[#8a8a8a]">Ception Core — A smart mapping and localization system powered by computer vision and deep learning for advanced industrial and automotive solutions.</p>
-                        <span><a href="https://drive.google.com/drive/folders/1gFFSc8nx6-G-pnAVC2g9njRaSem6cajk?usp=drive_link" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
+                        <span><a href="https://www.behance.net/gallery/240918931/Ception" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
                     </div>
-                    <div class="project-image">
+                    <div class="project-image" data-aos="fade-left">
                         <img src="Device Mockup.jpg">
                     </div>
                 </div>
                 <div class="project">
-                    <div class="project-image">
+                    <div class="project-image" data-aos="fade-right">
                         <img src="drosy.png">
                     </div>
-                    <div class="project-content">
+                    <div class="project-content" data-aos="fade-left">
                         <h3 class="text-[#4984eb] text-2xl">E learning Website</h3>
-                        <h1 class=""><a href="https://drive.google.com/drive/folders/15RZp0mgamKzV-w7WEiAUdhYTIKaWnMpW?usp=drive_link" target="_blank">Dorosy E learning</a></h1>
+                        <h1 class=""><a href="https://www.behance.net/gallery/240919215/Drosy-E-learning-Website" target="_blank">Dorosy E learning</a></h1>
                         <p class="text-[#8a8a8a]">Dorosy — An online learning platform designed for teachers and schools to deliver remote education. It provides a clean and user-friendly interface for accessing recorded lessons, managing classes, and supporting students in a fully digital learning environment.</p>
-                        <span><a href="https://drive.google.com/drive/folders/15RZp0mgamKzV-w7WEiAUdhYTIKaWnMpW?usp=drive_link" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
+                        <span><a href="https://www.behance.net/gallery/240919215/Drosy-E-learning-Website" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-content" data-aos="fade-right">
+                        <h3 class="text-[#4984eb] text-2xl">Business Website</h3>
+                        <h1 class=""><a href="https://www.behance.net/gallery/240916651/Sabek-website" target="_blank">Sabek Website</a></h1>
+                        <p class="text-[#8a8a8a]">we are a passionate team of digital marketing enthusiasts dedicated to helping businesses succeed in the digital world. With years of experience and a deep understanding of the ever-evolving online landscape, we stay at the forefront of industry trends and technologies.</p>
+                        <span><a href="https://www.behance.net/gallery/240916651/Sabek-website" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a></span>
+                    </div>
+                    <div class="project-image" data-aos="fade-left">
+                        <img src="Device Mockup.png">
                     </div>
                 </div>
             </div>
@@ -219,7 +235,7 @@
                     
                     <div class="contact-way">
                         <span class="icon"><i class="fa-brands fa-github"></i></span>
-                        <a href="https://github.com/youssefahmedatteya-stack" target="_blank">github</a>
+                        <a href="https://github.com/yoyo431" target="_blank">github</a>
                     </div>
                     <div class="contact-way">
                         <span class="icon"><i class="fa-brands fa-linkedin-in"></i></span>
@@ -252,5 +268,8 @@
     <!--// End footer //-->
 </body>
 <script src="main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>
-
